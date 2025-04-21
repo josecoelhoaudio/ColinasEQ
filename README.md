@@ -11,10 +11,7 @@ Features
 - Modular Filter Architecture built with juce::dsp::ProcessorChain for clean, extendable design.
 
 Technical Highlights
-Uses juce::dsp::FilterDesign for IIR filter coefficient generation.
-
-Filter slope handled via enum-based logic and multistage filter activation.
-
-Custom Fifo and SingleChannelSampleFifo classes enable efficient audio buffering per channel.
-
-Prepared for GUI integration with full parameter binding support.
+- Uses juce::dsp::FilterDesign for IIR filter coefficient generation.
+- Filter slope handled via enum-based logic and multistage filter activation.
+- Custom Fifo and SingleChannelSampleFifo classes enable efficient audio buffering per channel.
+- Prepared for GUI integration with full parameter binding support.
